@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj": {}
+    "c:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj": {
+    "c:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj",
+        "projectUniqueName": "c:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj",
         "projectName": "Jokempô",
-        "projectPath": "C:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj",
+        "projectPath": "c:\\Users\\yuajs\\Desktop\\Jokempô\\Jokempô.csproj",
         "packagesPath": "C:\\Users\\yuajs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yuajs\\Desktop\\Jokempô\\obj\\",
+        "outputPath": "c:\\Users\\yuajs\\Desktop\\Jokempô\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yuajs\\AppData\\Roaming\\NuGet\\NuGet.Config"

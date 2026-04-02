@@ -12,3 +12,4 @@ c:\Users\yuajs\Desktop\Jokempô\obj\Debug\net10.0\refint\Jokempô.dll
 c:\Users\yuajs\Desktop\Jokempô\obj\Debug\net10.0\Jokempô.pdb
 C:\Users\yuajs\Desktop\Jokempô\obj\Debug\net10.0\Jokempô.genruntimeconfig.cache
 C:\Users\yuajs\Desktop\Jokempô\obj\Debug\net10.0\ref\Jokempô.dll
+C:\Users\yuajs\Desktop\Jokempô\obj\Debug\net10.0\Jokempô.sourcelink.json

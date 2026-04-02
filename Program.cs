@@ -1,28 +1,27 @@
 ﻿using System;
+using System.Net;
+using System.Reflection.Metadata;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        while (Proximarodada.DesejoContinuar())
+        Console.WriteLine("🎮 JOKENPÔ - Bem-vindo!");
+        bool condicao = 0 == 0;
+        while (condicao)
         {
-            Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Iniciando Paritida de Jokempô!!!");
-            Console.WriteLine("--------------------------------------------");
+            string jogadaJogador = EscolhaJogador.PegarEscolha();
+            string jogadaPC = Computador.Escolher();
 
-            Console.WriteLine("Escolha uma opção: \n1. Pedra , 2. Papel, 3. Tesoura");
+            Resultado.Avaliar(jogadaJogador, jogadaPC);
+            Console.WriteLine("👋 Fim de jogo!");
+            Console.ReadLine();
 
-            string? opcaoJogadorInput = Console.ReadLine();
-            string opcaoJogador = opcaoJogadorInput ?? "";
-
-            string[] opcoesComputador = ["Pedra", "Papel", "Tesoura"];
-            Random random = new Random();
-            int indiceAleatorio = random.Next(opcoesComputador.Length);
-            string opcaoComputador = opcoesComputador[indiceAleatorio];
-
-            Comparacao.Comparando(opcaoJogador, opcaoComputador);
+            Console.WriteLine("------------------------------------");
+            if (!Verificacao.DesejaContinuar()) break;
         }
 
-        Console.WriteLine("Fim do jogo!");
+
+
     }
 }
