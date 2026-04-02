@@ -33,20 +33,6 @@ Desenvolvido com **C# .NET 6+**, o projeto demonstra boas práticas de código m
 
 ---
 
-## 🛠️ Arquitetura
-
-O projeto está organizado em classes bem definidas:
-
-| Classe | Responsabilidade |
-|--------|------------------|
-| `Program.cs` | Controle principal e loop do jogo |
-| `EscolhaJogador.cs` | Captura e validação da entrada do jogador |
-| `Computador.cs` | Geração aleatória da jogada do PC |
-| `Resultado.cs` | Cálculo e exibição do resultado |
-| `Verificacao.cs` | Verifica se jogador deseja continuar |
-
----
-
 ## 🚀 Como Rodar
 
 ### Pré-requisitos
