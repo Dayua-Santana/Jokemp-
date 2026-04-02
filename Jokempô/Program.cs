@@ -20,6 +20,5 @@ class Program
             Console.WriteLine("------------------------------------");
             if (!Verificacao.DesejaContinuar()) break;
         }
-
     }
 }
