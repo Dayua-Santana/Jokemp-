@@ -66,7 +66,25 @@ dotnet run
    - Digite `S` para jogar novamente
    - Digite `N` para sair
 
+---
+
+## 📦 Estrutura do Projeto
+
 ```
+Jokempô/
+├── Program.cs                    # Ponto de entrada
+├── EscolhaJogador.cs            # Input do jogador
+├── Computador.cs                # Lógica do PC
+├── Resultado.cs                 # Cálculo de vencedor
+├── Verificacao.cs               # Verifica continuar jogo
+├── Jokempô.csproj               # Configurações do projeto
+├── Jokempô.sln                  # Solução Visual Studio
+├── appsettings.json             # Configurações
+└── README.md                    # Este arquivo
+```
+
+---
+
 ## 💡 Exemplo de Uso
 
 ```
