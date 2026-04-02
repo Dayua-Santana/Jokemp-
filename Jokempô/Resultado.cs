@@ -13,7 +13,31 @@ class Resultado
         };
 
         string resultado = CalcularVencedor(jogador, pc, nomeJogador);
-        Console.WriteLine($"\n{pc} vs {nomeJogador} → {resultado}");
+
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.Write($"\n{pc}");
+        Console.ResetColor();
+        Console.Write(" vs ");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.Write($"{nomeJogador}");
+        Console.ResetColor();
+        Console.Write(" → ");
+
+        if (resultado == "Jogador venceu!")
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+        }
+        else if (resultado == "PC venceu!")
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+        }
+
+        Console.WriteLine(resultado);
+        Console.ResetColor();
     }
 
     private static string CalcularVencedor(string jogador, string pc, string nome)
