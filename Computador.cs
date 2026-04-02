@@ -9,4 +9,5 @@ class Computador
         Random rnd = new Random();
         return Opcoes[rnd.Next(Opcoes.Length)];
     }
+
 }

@@ -21,7 +21,5 @@ class Program
             if (!Verificacao.DesejaContinuar()) break;
         }
 
-
-
     }
 }
